@@ -4,7 +4,7 @@
 
 ## PDF
 
-[職務経歴書.pdf](職務経歴書.pdf) — `src/` の変更時に CI が自動で再生成します。
+[職務経歴書（PDF）](resume.pdf) — `src/` の変更時に CI が自動で再生成します。
 
 ## Tech Stack
 
@@ -32,7 +32,7 @@ brew install --cask font-noto-sans-cjk-jp
 ```bash
 npm install         # 依存インストール
 make lint           # textlint 実行
-make build          # PDF 生成 → output/職務経歴書.pdf
+make build          # PDF 生成 → output/resume.pdf
 make watch          # Typst ファイル監視 + 自動ビルド
 make clean          # output/ 削除
 ```
