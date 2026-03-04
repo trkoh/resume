@@ -2,6 +2,10 @@
 
 寺川 航平（Terakawa Kohei）の職務経歴書です。
 
+## PDF
+
+[職務経歴書.pdf](職務経歴書.pdf) — `src/` の変更時に CI が自動で再生成します。
+
 ## Tech Stack
 
 - **Markdown** — 情報網羅版（`src/職務経歴書.md`）
