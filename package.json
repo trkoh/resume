@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "職務経歴書 / Resume",
+  "scripts": {
+    "lint": "textlint src/職務経歴書.md",
+    "lint:fix": "textlint --fix src/職務経歴書.md"
+  },
+  "devDependencies": {
+    "textlint": "^14.0.0",
+    "textlint-rule-preset-ja-technical-writing": "^10.0.0",
+    "textlint-rule-preset-japanese": "^10.0.0"
+  }
+}

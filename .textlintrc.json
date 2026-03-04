@@ -1,0 +1,27 @@
+{
+  "rules": {
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 200
+      },
+      "no-mix-dearu-desumasu": {
+        "strict": false
+      },
+      "ja-no-weak-phrase": false,
+      "ja-no-mixed-period": false,
+      "max-kanji-continuous-len": {
+        "max": 12
+      },
+      "max-comma": {
+        "max": 5
+      },
+      "no-doubled-joshi": false
+    },
+    "preset-japanese": {
+      "sentence-length": {
+        "max": 200
+      },
+      "no-doubled-joshi": false
+    }
+  }
+}
